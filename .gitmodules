@@ -1,0 +1,6 @@
+[submodule "mu-plugins/extended-taxos"]
+	path = mu-plugins/extended-taxos
+	url = https://github.com/johnbillion/extended-taxos.git
+[submodule "mu-plugins/extended-cpts"]
+	path = mu-plugins/extended-cpts
+	url = https://github.com/johnbillion/extended-cpts.git
