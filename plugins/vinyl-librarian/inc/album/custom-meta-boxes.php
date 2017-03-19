@@ -2,10 +2,10 @@
 namespace Vinyl_Librarian\Album\Custom_Meta_Boxes;
 
 function bootstrap() {
-	add_filter( 'cmb_meta_boxes', __NAMESPACE__ . '\\year_cmb' );
+	add_filter( 'cmb_meta_boxes', __NAMESPACE__ . '\\album_cmbs' );
 }
 
-function year_cmb( $meta_boxes ) {
+function album_cmbs( $meta_boxes ) {
 	$fields = [
 		[
 			'id'   => 'year',
