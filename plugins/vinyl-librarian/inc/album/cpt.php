@@ -16,6 +16,7 @@ function register_cpt() {
 				'remove_featured_image' => __( 'Delete Album Cover', 'vinyl-librarian' ),
 				'use_featured_image'    => __( 'Use Album Cover',    'vinyl-librarian' ),
 			],
+			'menu_icon' => 'dashicons-format-audio',
 		]
 	);
 }

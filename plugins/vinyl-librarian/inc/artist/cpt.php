@@ -9,7 +9,8 @@ function register_cpt() {
 	register_extended_post_type(
 		'artist',
 		[
-			'supports' => [ 'title' ],
+			'supports'  => [ 'title' ],
+			'menu_icon' => 'dashicons-groups',
 		]
 	);
 }
