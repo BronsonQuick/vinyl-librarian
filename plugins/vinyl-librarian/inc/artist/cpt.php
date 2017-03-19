@@ -9,7 +9,7 @@ function register_cpt() {
 	register_extended_post_type(
 		'artist',
 		[
-			'supports' => [ 'title', 'thumbnail' ],
+			'supports' => [ 'title' ],
 		]
 	);
 }
