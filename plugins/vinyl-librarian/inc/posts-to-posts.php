@@ -7,8 +7,9 @@ function bootstrap() {
 
 function connect_cpts() {
 	p2p_register_connection_type( array(
-		'name' => 'artists_to_albums',
-		'from' => 'artist',
-		'to'   => 'album',
+		'name'        => 'artists_to_albums',
+		'from'        => 'artist',
+		'to'          => 'album',
+		'cardinality' => 'one-to-many',
 	) );
 }
