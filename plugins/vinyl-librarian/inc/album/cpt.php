@@ -6,5 +6,5 @@ function bootstrap() {
 }
 
 function register_cpt() {
-	register_extended_post_type( 'vinyl' );
+	register_extended_post_type( 'album' );
 }
