@@ -9,8 +9,18 @@ function register_taxos() {
 	register_extended_taxonomy(
 		'genre',
 		'album',
-		[ 'meta_box' => 'radio' ]
+		[
+			'meta_box' => 'radio',
+			'show_in_rest' => true,
+		]
 	);
 
-	register_extended_taxonomy( 'style', 'album' );
+	register_extended_taxonomy(
+		'style',
+		'album',
+		[
+			'meta_box' => 'radio',
+			'show_in_rest' => true,
+		]
+	);
 }
