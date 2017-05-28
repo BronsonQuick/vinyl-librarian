@@ -1,0 +1,8 @@
+hosts:
+    - vinyl.local
+extensions:
+  - chassis/tester
+  - chassis/fish
+  - chassis/xdebug
+  - chassis/phpcs
+  - chassis/sequelpro
