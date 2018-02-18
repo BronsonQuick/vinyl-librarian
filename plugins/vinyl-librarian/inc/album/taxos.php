@@ -14,13 +14,4 @@ function register_taxos() {
 			'show_in_rest' => true,
 		]
 	);
-
-	register_extended_taxonomy(
-		'style',
-		'album',
-		[
-			'meta_box' => 'radio',
-			'show_in_rest' => true,
-		]
-	);
 }
