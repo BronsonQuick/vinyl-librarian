@@ -4,3 +4,9 @@
 [submodule "mu-plugins/extended-cpts"]
 	path = mu-plugins/extended-cpts
 	url = https://github.com/johnbillion/extended-cpts.git
+[submodule "mu-plugins/posts-to-posts"]
+	path = mu-plugins/posts-to-posts
+	url = git@github.com:scribu/wp-posts-to-posts.git
+[submodule "mu-plugins/custom-meta-boxes"]
+	path = mu-plugins/custom-meta-boxes
+	url = git@github.com:humanmade/Custom-Meta-Boxes.git
